@@ -9,7 +9,8 @@ void main() {
 
   if (numero <= 1) {
     primo = false;
-  } else {
+  } 
+  else {
     while (divisor < numero) {
       if (numero % divisor == 0) {
         primo = false;
@@ -20,7 +21,8 @@ void main() {
 
   if (primo == true) {
     print("O número $numero é primo");
-  } else {
+  } 
+  else {
     print("O número $numero não é primo");
   }
 }
