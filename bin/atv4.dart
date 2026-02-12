@@ -1,8 +1,8 @@
 import 'dart:io';
 
 void main() {
-  print("Digite um número para ver se ele é primo: ");
-  int numero = int.parse(stdin.readLineSync()!);
+  stdout.write("Digite um número para ver se ele é primo: ");
+  int numero = int.parse(stdin.readLineSync().toString());
 
   int divisor = 2;
   bool primo = true;
